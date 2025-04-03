@@ -33,24 +33,22 @@ This project focuses on diagnosing breast cancer using machine learning models, 
 1. Logistic Regression
 
 Accuracy: ~96%
+
 Precision (malignant): 0.95
-Recall (malignant): 0.96
-→ Performs excellently as a linear model and serves well as a baseline.
+
+Recall (malignant): 0.96 → Performs excellently as a linear model and serves well as a baseline.
 
 2. Random Forest Classifier
 
-Accuracy: ~95%
-Slightly better handling of non-linear relationships, but similar overall accuracy.
+Accuracy: ~95% → Slightly better handling of non-linear relationships, but similar overall accuracy.
 
 3. Support Vector Machine (SVM)
 
-Accuracy: ~95%
-Excellent boundary detection; slightly more computationally intensive.
+Accuracy: ~95% → Excellent boundary detection; slightly more computationally intensive.
 
 4. Confusion Matrix Insights:
 
-Very low false negatives, which is critical in medical diagnosis
-High true positive rate ensures malignant tumors are correctly flagged
+Very low false negatives, which is critical in medical diagnosis. High true positive rate ensures malignant tumors are correctly flagged
 
 
 # 💡 Key Findings
